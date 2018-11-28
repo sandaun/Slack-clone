@@ -1,0 +1,258 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/* --- Layout ---*/
+.container{
+  margin: 0 auto;
+  width: 85%;
+}
+img{
+  max-width: 100%;
+}
+/* --- typos --*/
+h1{
+  font-size: 2.2rem;
+  color: #323648;
+
+}
+h2{
+  font-size:1.800rem;
+  color: #323648;
+}
+
+h3{
+  line-height: 1.45;
+    letter-spacing: normal;
+    font-size: 1.5rem;
+    margin: 0;
+}
+span, p{
+  color: #5b5e6d;
+  font-family: appleLogo,sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: normal;
+  font-size: 1.0625rem;
+}
+
+/* --- WEB --- */
+
+.nav-bar ul{
+  display:none;
+}
+.slack-logo{
+  height: 52px;
+  float: left;
+}
+.burger-menu-icon{
+  height: 42px;
+  padding:10px 0 0;
+  float: right;
+}
+.header{
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+  top: 0;
+  left: 0;
+}
+
+.button-app {
+  margin-bottom: 20px;
+}
+
+.image-slack {
+	width: 90%;
+}
+
+.howto{
+  padding-top: 70px;
+}
+.howto button{
+  background:#3f46ad;
+  border:none;
+  border-radius:5px;
+  width:100%;
+  padding: 20px 40px;
+  color:white;
+  text-transform:uppercase;
+  font-style:bold;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.guide {
+  padding: 2rem 0;
+}
+
+.guide article img{
+  height:60px;
+  margin-bottom:10px;
+}
+.guide a{
+  text-align:center;
+  display:block;
+  font-weight:600;
+  text-decoration: none;
+  border-bottom:1px solid #3f46ad;
+  color:#3f46ad;
+  line-height: 1.2;
+}
+
+.link-bottom-guide {
+  font-family: appleLogo,sans-serif;
+  color: #3f46ad;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.teams {
+  background-color: #f5f5f5;
+  padding: 3rem 0;
+}
+
+.links-top {
+  background-image: url(images/tracks_1.png), url(images/halftone_9.png),url(images/blob_7.png);
+  background-repeat: no-repeat,no-repeat,no-repeat;
+  background-position: top left,25% 95%,bottom right;
+}
+.links {
+    font-family: Slack-Averta,appleLogo,sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: black;
+    padding: 16px;
+    margin: 5px 0;
+    background-color: white;
+}
+
+.companies article{
+  box-shadow: 0 0 2rem rgba(0,0,0,.1);
+  margin: 3%;
+}
+.companies article header{
+  padding:20px 33% 20px 20px;
+}
+
+.companies article span{
+  color: #323648;
+  font-size: 1rem;
+}
+
+.companies article .picture{
+  width: 100%;
+}
+.companies article .info{
+  overflow: hidden;
+  padding: 5%;
+}
+.companies article .info span{
+  color: #3f46ad;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.burger-info{
+  height: 20px;
+  float: right;
+}
+
+
+.logos {
+text-align: center;
+margin: 4em auto auto;
+}
+.logos img {
+  margin: 0.5em 15px;
+}
+
+.testing{
+  background-repeat: repeat;
+  background-color: #3f46ad;
+  background-image: url("https://a.slack-edge.com/1fd8/spacesuit/source/images/backgrounds/bg_halftone_black_20p@2x.png");
+  background-size: 1300px 700px;
+  align-items: center;
+  text-align: center;
+}
+.testing h2{
+  color:white;
+  padding: 25% 10% 5% 10%;
+}
+.testing button{
+  background:white;
+  border:none;
+  border-radius:5px;
+  padding: 20px 60px;
+  color:#1c299d;
+  text-transform:uppercase;
+  font-style:bold;
+  font-size: .9rem;
+  font-weight: 700;
+  margin:0 20px 10% 20px;
+}
+
+.icon-logo{
+  width: 15%;
+  padding-top: 30px;
+}
+
+.listheader {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: normal;
+  font-size: 1rem;
+  color: #6d6f7b;
+  font-family: appleLogo,sans-serif;
+}
+
+.unordered-links{
+  text-decoration: none;
+  color: #6d6f7b;
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+  line-height: 2.2;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-size: 1rem;
+  font-family: appleLogo,sans-serif;
+}
+
+.footer-final img{
+  max-height:20px;
+  margin:0 10px;
+ }
+
+ footer ul{
+  padding:0;
+  margin:0;
+  background:#f5f5f5;
+  list-style:none;
+ }
+ footer ul li{
+  padding:15px;
+  text-align:center;
+  color:#6d6f7b;
+  font-family: appleLogo,sans-serif;
+  font-weight: 600;
+ }
+
+ .arrow-image {
+   height:10px;
+ }
